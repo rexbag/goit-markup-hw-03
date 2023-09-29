@@ -85,9 +85,9 @@ img {
   color: #2e2f42;
 }
 .header {
-  border-bottom: 1px solid var(--c-header);
+  border-bottom: 1px solid #e7e9fc;
   height: 72px;
-  padding: 25.5px 0;
+  padding: 24px 0;
 }
 
 .head {
@@ -117,6 +117,7 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .contact {
@@ -135,9 +136,6 @@ img {
 
 .hero-section {
   background-color: #2e2f42;
-}
-
-.hero {
   padding: 188px 0;
 }
 
@@ -181,8 +179,9 @@ img {
   overflow: hidden;
 }
 .features {
-  padding: 120px;
+  padding: 120px 0;
 }
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -209,7 +208,7 @@ img {
 /*Section 3 Our Team*/
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
 }
 .team-list {
   display: flex;
@@ -224,7 +223,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-card-text {
-  padding: 32px;
+  padding: 32px 0;
 }
 
 .subtitle-team {
@@ -260,7 +259,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-cards {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border: 1px solid #e7e9fc;
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
 }
@@ -287,6 +286,7 @@ img {
 }
 .footer-section .logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-section .text {
   color: #f4f4fd;
