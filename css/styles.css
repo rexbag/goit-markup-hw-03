@@ -86,7 +86,6 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  height: 72px;
   padding: 24px 0;
 }
 
@@ -118,6 +117,7 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   padding: 24px 0;
+  display: block;
 }
 
 .contact {
@@ -266,7 +266,6 @@ img {
 .portfolio-cards-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  text-align: center;
   border-top: none;
 }
 .portfolio-subtitle {
